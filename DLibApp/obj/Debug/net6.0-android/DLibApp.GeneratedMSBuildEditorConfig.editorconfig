@@ -1,0 +1,40 @@
+is_global = true
+build_property.TargetFramework = net6.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DLibApp
+build_property.ProjectDir = E:\Github\xIncrementx\DLibrary\DLibApp\
+
+[E:/Github/xIncrementx/DLibrary/DLibApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DLibApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[E:/Github/xIncrementx/DLibrary/DLibApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DLibApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[E:/Github/xIncrementx/DLibrary/DLibApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DLibApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[E:/Github/xIncrementx/DLibrary/DLibApp/Resources/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DLibApp.Resources.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Colors.xaml
+
+[E:/Github/xIncrementx/DLibrary/DLibApp/Resources/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DLibApp.Resources.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles.xaml
