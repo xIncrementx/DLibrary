@@ -1,24 +1,17 @@
-﻿namespace DLibApp;
+using DLibApp.Viewmodels;
+
+namespace DLibApp;
 
 public partial class MainPage : ContentPage
 {
-	int count = 0;
+    private MainViewmodel mainViewmodel;
 
-	public MainPage()
-	{
-		InitializeComponent();
-	}
+    public MainPage()
+    {
+        InitializeComponent();
+        mainViewmodel = new MainViewmodel();
+        BindingContext = mainViewmodel;
+    }
 
-	private void OnCounterClicked(object sender, EventArgs e)
-	{
-		count++;
-
-		if (count == 1)
-			CounterBtn.Text = $"Clicked {count} time";
-		else
-			CounterBtn.Text = $"Clicked {count} times";
-
-		SemanticScreenReader.Announce(CounterBtn.Text);
-	}
+    private void OnLoginButtonClicked(object sender, EventArgs e) => ((MainViewmodel)BindingContext).Count++;
 }
-
