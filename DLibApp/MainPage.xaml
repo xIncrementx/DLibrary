@@ -14,17 +14,12 @@
             <!--Dependencies-->
             <mainViewmodel:MainViewmodel/>
 
-            <!--Label-->
-            <Label 
-                Text="{Binding Count}"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
             <!--Button-->
             <Button
-                Text="Log in"
-                Clicked="OnLoginButtonClicked"
+                Text="Begin"
+                Clicked="OnBeginButtonClicked"
                 HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

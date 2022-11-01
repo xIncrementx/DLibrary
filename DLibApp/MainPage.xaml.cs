@@ -13,5 +13,10 @@ public partial class MainPage : ContentPage
         BindingContext = mainViewmodel;
     }
 
-    private void OnLoginButtonClicked(object sender, EventArgs e) => ((MainViewmodel)BindingContext).Count++;
+    /*private void OnLoginButtonClicked(object sender, EventArgs e) => ((MainViewmodel)BindingContext).Count++;*/
+
+    private void OnBeginButtonClicked(object sender, EventArgs e)
+    {
+        mainViewmodel.LaunchEntryPage();
+    }
 }

@@ -1,30 +1,20 @@
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using DLibApp.Pages.Entry.Viewmodel;
 
 namespace DLibApp.Viewmodels;
 
-public class MainViewmodel : INotifyPropertyChanged
+public class MainViewmodel
 {
-    private int count;
-    public int Count
-    {
-        get { return count; }
-        set
-        {
-            count = value;
-            OnPropertyChanged();
-        }
-    }
+    private EntryViewmodel entryViewmodel;
 
     public MainViewmodel()
     {
-        Count = 0;
+        
     }
 
-    public event PropertyChangedEventHandler PropertyChanged;
-
-    protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
+    public void LaunchEntryPage()
     {
-        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        entryViewmodel = new();
     }
 }
