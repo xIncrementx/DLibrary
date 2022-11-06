@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DLibApp.Pages.Entry.View.EntryPage"
+             xmlns:viewmodels="clr-namespace:DLibApp.Viewmodels"
+             xmlns:viewmodel="clr-namespace:DLibApp.Pages.Entry.Viewmodel"
+             x:DataType="viewmodel:EntryViewmodel">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25" 
+            Padding="30,0" 
+            VerticalOptions="Center">
+
+            <!--Dependencies-->
+            <viewmodels:MainViewmodel/>
+
+            <!--Label-->
+            <Label 
+                Text="{Binding Count}"
+                FontSize="32"
+                HorizontalOptions="Center" />
+
+            <!--Button-->
+            <Button
+                Text="Log in"
+                Clicked="OnRegisterButtonClicked"
+                HorizontalOptions="Center" />
+            <Button
+                Text="Log in"
+                Clicked="OnLoginButtonClicked"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

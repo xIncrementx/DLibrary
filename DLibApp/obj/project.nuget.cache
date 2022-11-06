@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pTLyLg8755deUUiggRJq5MWse9lvBTN9SJHjflUnAe85as9Lbo9BfwYtXwWoOIeTi4nho0av5Z8s/LhTpVrOAg==",
+  "dgSpecHash": "LDp9Zhlw0Ey+p85vbpRS6w8Kd5AkZ4KHbO4ryKXuEptT8EcQuAvHgxZd4nArs6z5ZOHu4EeaekAaF/5/n/IHWg==",
   "success": true,
   "projectFilePath": "E:\\Github\\xIncrementx\\DLibrary\\DLibApp\\DLibApp.csproj",
   "expectedPackageFiles": [
@@ -104,12 +104,12 @@
     "C:\\Users\\xIncrement\\.nuget\\packages\\xamarin.kotlin.stdlib.jdk8\\1.6.20.1\\xamarin.kotlin.stdlib.jdk8.1.6.20.1.nupkg.sha512",
     "C:\\Users\\xIncrement\\.nuget\\packages\\xamarin.kotlinx.coroutines.android\\1.6.0.1\\xamarin.kotlinx.coroutines.android.1.6.0.1.nupkg.sha512",
     "C:\\Users\\xIncrement\\.nuget\\packages\\xamarin.kotlinx.coroutines.core.jvm\\1.6.0.1\\xamarin.kotlinx.coroutines.core.jvm.1.6.0.1.nupkg.sha512",
-    "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.10\\microsoft.netcore.app.host.linux-x64.6.0.10.nupkg.sha512",
-    "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\6.0.10\\microsoft.netcore.app.host.linux-arm64.6.0.10.nupkg.sha512",
     "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm\\6.0.10\\microsoft.netcore.app.host.linux-arm.6.0.10.nupkg.sha512",
+    "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\6.0.10\\microsoft.netcore.app.host.linux-arm64.6.0.10.nupkg.sha512",
+    "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.10\\microsoft.netcore.app.host.linux-x64.6.0.10.nupkg.sha512",
     "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.10\\microsoft.netcore.app.runtime.win-x64.6.0.10.nupkg.sha512",
-    "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.10.nupkg.sha512",
     "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.10.nupkg.sha512",
+    "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.10\\microsoft.aspnetcore.app.runtime.win-x64.6.0.10.nupkg.sha512",
     "C:\\Users\\xIncrement\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.27\\microsoft.windows.sdk.net.ref.10.0.19041.27.nupkg.sha512"
   ],
   "logs": []
